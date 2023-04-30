@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-azul-oscuro: #083653;
+    --clr-azul: #326789;
+    --clr-celeste: #78A6C8;
+    --clr-blanco: #E9EEF2;
+    --clr-rojo: #E65C4F;
+}
+
+body{
+    background-color: #083653;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #083653;
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    padding: 1.5rem;
+    color: #E9EEF2;
+    display: flex;
+    justify-content: space-between;
+}
+
+header .logo{
+    font-size: 2.3rem;
+    color: white;
+}
+
+header .boton-producto{
+    padding: 0.4rem;
+    margin-right: 20px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: .4rem;
+}
+
+header .boton-producto:hover{
+    cursor: pointer;
+    background-color: #E9EEF2;
+    transition: 0.4s;
+    color: black;
+}
+
+header .boton-carrito{
+    border: none;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius: .4rem;
+}
+
+header .boton-carrito:hover{
+    cursor: pointer;
+    background-color: #E9EEF2;
+    transition: 0.4s;
+    color: black;
+}
+
+header .boton-volver{
+    border: none;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    padding: 0.4rem;
+    font-size: 1rem;
+    border-radius: .4rem;
+}
+
+header .boton-volver:hover{
+    cursor: pointer;
+    background-color: #E9EEF2;
+    transition: 0.4s;
+    color: black;
+}
+
+header ul li i{
+    margin: 3px;
+}
+nav{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+main {
+    background-color: #E9EEF2;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.titulo{
+    color: #326789;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-prendas{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.prenda-imagen{
+    max-width: 100%;
+    border-radius: 15px;
+}
+
+.prenda-detalles{
+    background-color: #083653;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 15px;
+    margin-top: -2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}
+
+.prenda-agregar{
+    border: 0;
+    background-color: #E9EEF2;
+    color: #083653;
+    font-weight: 600;
+    padding: 0.3rem;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+/* CARRITO */
+
+.container-carrito{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.carrito-vacio{
+    color: #083653;
+}
+
+.carrito-prendas{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.carrito-prenda{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-radius: .8rem;
+    color: #083653;
+    padding: 0.5rem;
+}
+
+.carrito-prenda-imagen{
+    width: 5rem;
+    border-radius: .8rem;
+    height: 6rem;
+}
+
+.carrito-boton-sacar{
+    background-color: transparent;
+    border: none;
+    color: #E65C4F;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.carrito-opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carrito-borrar{
+    border: 0;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #083653;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    font-family:'Poppins', sans-serif;;
+}
+
+.carrito-comprar{
+    border: 0;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #083653;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.carrito-opciones-final{
+    display: flex;
+}
+
+.contador{
+    background-color: white;
+    color: #083653;
+    padding: 0 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.carrito-total{
+    display: flex;
+    border: 0;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: #083653;
+    font-weight: 600;
+}
+
+.carrito-comprado{
+    color: #083653;
+}
+
+.disabled{
+    display: none;
+}

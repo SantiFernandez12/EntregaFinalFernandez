@@ -1,0 +1,64 @@
+[
+
+    {
+        "id": "prenda-1",
+        "titulo": "Prenda 1",
+        "imagen": "./images/prenda-1.jpg",
+        "precio": "$2800"
+    },
+
+    {
+        "id": "prenda-2",
+        "titulo": "Prenda 2",
+        "imagen": "./images/prenda-2.jpg",
+        "precio": "$2800"
+    },
+
+    {
+        "id": "prenda-3",
+        "titulo": "Prenda 3",
+        "imagen": "./images/prenda-3.jpg",
+        "precio": "$2800"
+    },
+    
+    {
+        "id": "prenda-4",
+        "titulo": "Prenda 4",
+        "imagen": "./images/prenda-4.jpg",
+        "precio": "$2800"
+    },
+
+    {
+        "id": "prenda-5",
+        "titulo": "Prenda 5",
+        "imagen": "./images/prenda-5.jpg",
+        "precio": "$2800"
+    },
+    {
+        "id": "prenda-6",
+        "titulo": "Prenda 6",
+        "imagen": "./images/prenda-6.jpg",
+        "precio": "$2800"
+    },
+    {
+        "id": "prenda-7",
+        "titulo": "Prenda 7",
+        "imagen": "./images/prenda-7.jpg",
+        "precio": "$2800"
+    },
+
+    {
+        "id": "prenda-8",
+        "titulo": "Prenda 8",
+        "imagen": "./images/prenda-8.jpg",
+        "precio": "$2800"
+    },
+
+    {
+        "id": "prenda-9",
+        "titulo": "Prenda 9",
+        "imagen": "./images/prenda-9.jpg",
+        "precio": "$2800"
+    }
+
+]

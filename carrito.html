@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script defer src="./js/carrito.js"></script>
+    <title>Prendas Web</title>
+</head>
+<body>
+    <div class="container">
+        
+        <header>
+            <h1 class="logo">Prendas Web</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a class="boton-volver" href="./index.html"><i class="bi bi-arrow-90deg-left"></i>
+                            Comprar mas
+                        </a>
+                    </li>
+                    <li>
+                        <a class="boton-carrito" href="./carrito.html"><i class="bi bi-cart-plus-fill"></i>
+                            Carrito
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <h2 class="titulo">Carrito</h2>
+            <div class="container-carrito">
+
+                <p id="carrito-vacio" class="carrito-vacio">Tu carrito esta vacio.</p>
+
+                <div id="carrito-prenda" class="carrito-prendas disabled">
+                    
+                </div>
+
+                <div id="carrito-opciones" class="carrito-opciones disabled">
+                    <div class="carrito-opciones-principio">
+                        <button id="carrito-borrar" class="carrito-borrar">Borrar Carrito</button>
+                    </div>
+                    
+                    <div class="carrito-opciones-final">
+                        <div class="carrito-total">
+                            <p>Total:</p>
+                            <p class="" id="total">$3000</p>
+                        </div>
+                        <button id="carrito-comprar" class="carrito-comprar">Comprar Ya</button>  
+                    </div>
+                </div>
+
+                <p id="carrito-comprado" class="carrito-comprado disabled">Muchas gracias por tu compra</p>
+                
+            </div>
+        </main>
+    </div>
+</body>
+</html>
